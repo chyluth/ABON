@@ -35,7 +35,7 @@ ABON Structures
 ABON Object Notation
 ====================
 * An ABON object is an unordered set of name/value pairs
-* An ABON object begins with [  (open bracket) and ends with ] (close bracket)
+* An ABON object begins with '[' (open bracket) and ends with ']' (close bracket)
 * Each name is followed by : (colon) and after that is the value that closed by / (forward slash) and followed by ] (close bracket)
 
 ABON and Java
@@ -66,9 +66,9 @@ ABON and Java
 	ABONReader  abonReader = new ABONReader(dataBytes);
 
 
-* In this example, a ABON Java object is created
-containing a single member "items1", which contains an array containing 5 valued objects, each members represented by keyname or unique node name.
+* In this example, a ABON Java object is created containing a single member "items1", which contains an array containing 5 valued objects, each members represented by keyname or unique node name.
 * Members can be retrieved using keyname or node name if name is unique
+
 
 	Document document = abonReader.getDocument();
 	
