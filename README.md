@@ -21,7 +21,7 @@ Why Use ABON over XML or JSON
 * ABON objects are typed while XML data is typeless
  - ABON types: string, number, array, boolean  and symbol
  - XML data are all string
-* Native data form for Java 1.3 code
+* Native data form for Java 1.3 code or above
  - Data is readily accessible as ABON objects in your Java code vs. XML data needed to be parsed and assigned to variables through tedious DOM APIs
  - Retrieving values is as easy as reading from an object property in your Java code
 
