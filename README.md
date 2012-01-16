@@ -67,7 +67,7 @@ ABON and Java
 	int size = inputStream.available();
 	byte[] dataBytes = new byte[size];
 	inputStream.read(dataBytes, 0, size);
-	ABONReader  abonReader = new ABONReader(dataBytes);
+	ABONReader abonReader = new ABONReader(dataBytes);
 
 
 * In this example, an ABON Java object is created containing a single member `items1`, which contains an array containing 5 valued objects, each members represented by keyname or unique node name.
