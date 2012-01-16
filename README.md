@@ -56,10 +56,10 @@ ABON format:
 		"[items1:" +
 		  	"[item11:one one/]" +
 			"[item12:
-				"[item12a: one two a/]" +
+				"[item12a:one two a/]" +
 				"[item12b:one two b/]" +
-				"[item12c :" +
-					"[item12ca: one two c a/]" +
+				"[item12c:" +
+					"[item12ca:one two c a/]" +
 				"]" +
 			"]" +
 			"[item13:one three/]" +
