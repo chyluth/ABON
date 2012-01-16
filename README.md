@@ -35,7 +35,7 @@ ABON Structures
 ABON Object Notation
 ====================
 * An ABON object is an unordered set of name/value pairs
-* An ABON object begins with '[' (open bracket) and ends with ']' (close bracket)
+* An ABON object begins with \[ (open bracket) and ends with \] (close bracket)
 * Each name is followed by : (colon) and after that is the value that closed by / (forward slash) and followed by ] (close bracket)
 
 ABON and Java
@@ -57,8 +57,8 @@ ABON and Java
 		"[item13:one three/]" +
 	"];
 	ABONReader  abonReader = new ABONReader(myABONString.getBytes());
-	
-	Or from InputStream
+
+# Or from InputStream
 	
 	int size = inputStream.available();
 	byte[] dataBytes = new byte[size];
