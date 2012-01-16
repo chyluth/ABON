@@ -70,10 +70,16 @@ ABON and Java
 * Members can be retrieved using keyname or node name if name is unique
 
 ### Example: To retrieve ABON Object
+Get document from ABON reader
+
 	Document document = abonReader.getDocument();
- 
+	
+than
 
 	Node item11Node = document.getNode(“items1.item11”);
+
+
+
 	Node item12caNode = document.getNode(“items1.item12.item12c.item12ca”);
 	
 Or if no duplicated keyname
