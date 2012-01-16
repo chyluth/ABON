@@ -50,21 +50,25 @@ ABON and Java
  ABON can be used in the Java language with no muss or fuss
 
 ### Example: ABON Object
+ABON format:
 	String myABONString = 
-	"[items1:" +
-	  "[item11:one one/]" +
-		"[item12:
-			"[item12a: one two a/]" +
-			"[item12b:one two b/]" +
-			"[item12c :" +
-				"[item12ca: one two c a/]" +
+		"[items1:" +
+		  "[item11:one one/]" +
+			"[item12:
+				"[item12a: one two a/]" +
+				"[item12b:one two b/]" +
+				"[item12c :" +
+					"[item12ca: one two c a/]" +
+				"]" +
 			"]" +
-		"]" +
-		"[item13:one three/]" +
-	"];
-	ABONReader  abonReader = new ABONReader(myABONString.getBytes());
+			"[item13:one three/]" +
+		"];
+		
+> read data bytes from string
 
-> Or from InputStream
+	ABONReader abonReader = new ABONReader(myABONString.getBytes());
+
+> or from InputStream
 	
 	int size = inputStream.available();
 	byte[] dataBytes = new byte[size];
@@ -78,7 +82,7 @@ ABON and Java
 ### Example: To retrieve ABON Object
 Step-by-step method:
 
-> Get document from ABON reader
+> get document from ABON reader
 
 	Document document = abonReader.getDocument();
 	
