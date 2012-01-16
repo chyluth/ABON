@@ -1,6 +1,6 @@
 ABON
 ====
-[Official Site: http://](under construction)
+[Official Site: under construction](under construction)
 
 What is ABON?
 -------------
@@ -62,7 +62,7 @@ ABON and Java
 	"];
 	ABONReader  abonReader = new ABONReader(myABONString.getBytes());
 
-> > Or from InputStream
+> Or from InputStream
 	
 	int size = inputStream.available();
 	byte[] dataBytes = new byte[size];
@@ -74,7 +74,8 @@ ABON and Java
 * Members can be retrieved using keyname or node name if name is unique
 
 ### Example: To retrieve ABON Object
-Get document from ABON reader
+Step-by-step method:
+> Get document from ABON reader
 
 	Document document = abonReader.getDocument();
 	
