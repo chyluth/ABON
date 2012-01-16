@@ -19,9 +19,9 @@ Why Use ABON over XML or JSON
 -----------------------------
 * Lighter and faster than XML or JSON as on-the-wire data format
 * ABON objects are typed while XML data is typeless
- ABON types: string, number, array, boolean   and symbol
+ ABON types: string, number, array, boolean  and symbol
  XML data are all string
-* Native data form for Java  1.3 code
+* Native data form for Java 1.3 code
  Data is readily accessible as ABON objects in your Java code vs. XML data needed to be parsed and assigned to variables through tedious DOM APIs
  Retrieving values is as easy as reading from an objectproperty in your Java code
 
@@ -41,8 +41,8 @@ ABON Structures
 ABON Object Notation
 --------------------
 * An ABON object is an unordered set of name/value pairs
-* An ABON object begins with \[ (open bracket) and ends with \] (close bracket)
-* Each name is followed by : (colon) and after that is the value that closed by / (forward slash) and followed by ] (close bracket)
+* An ABON object begins with `\[` (open bracket) and ends with `\]` (close bracket)
+* Each name is followed by `:` (colon) and after that is the value that closed by `/` (forward slash) and followed by `]` (close bracket)
 
 ABON and Java
 -------------
