@@ -66,7 +66,7 @@ ABON and Java
 	ABONReader  abonReader = new ABONReader(dataBytes);
 
 
-* In this example, a `ABON` Java object is created containing a single member "items1", which contains an array containing 5 valued objects, each members represented by keyname or unique node name.
+* In this example, an ABON Java object is created containing a single member `items1`, which contains an array containing 5 valued objects, each members represented by keyname or unique node name.
 * Members can be retrieved using keyname or node name if name is unique
 
 ### Example: To retrieve ABON Object
@@ -74,7 +74,7 @@ Get document from ABON reader
 
 	Document document = abonReader.getDocument();
 	
-than
+than get node from the document
 
 	Node item11Node = document.getNode(“items1.item11”);
 
