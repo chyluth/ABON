@@ -71,7 +71,7 @@ ABON and Java
 
 ### Example: To retrieve ABON Object
 	Document document = abonReader.getDocument();
-	
+
 	Node item11Node = document.getNode(“items1.item11”);
 	Node item12caNode = document.getNode(“items1.item12.item12c.item12ca”);
 	
