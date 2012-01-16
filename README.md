@@ -7,9 +7,9 @@ ABON
 What is ABON?
 -------------
 * Lightweight data-interchange format
- Compared to XML or JSON
+ - Compared to XML or JSON
 * Simple format
- Easy for humans to read and write
+- Easy for humans to read and write
  Easy for machines to parse and generate
 * ABON is a text format
  Programming language independent
