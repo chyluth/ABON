@@ -58,7 +58,7 @@ ABON and Java
 	"];
 	ABONReader  abonReader = new ABONReader(myABONString.getBytes());
 
-# Or from InputStream
+#### Or from InputStream
 	
 	int size = inputStream.available();
 	byte[] dataBytes = new byte[size];
@@ -73,10 +73,10 @@ ABON and Java
 	Document document = abonReader.getDocument();
 	
 	Node item11Node = document.getNode(“items1.item11”);
-	Or  Node item11Node = document.getNode(“item11”);  (If no duplicated keyname)
-	
 	Node item12caNode = document.getNode(“items1.item12.item12c.item12ca”);
-	Or  Node item11Node = document.getNode(“items12ca”);  (If no duplicated keyname)
+#### Or if no duplicated keyname
+	Node item11Node = document.getNode(“item11”);
+	Node item11Node = document.getNode(“items12ca”);
 	
 	String items11Name = Item11Node.getName();
 	String items11Value = Item11Node.getValue();
