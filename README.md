@@ -54,7 +54,7 @@ ABON format:
 
 	String myABONString = 
 		"[items1:" +
-		  "[item11:one one/]" +
+		  	"[item11:one one/]" +
 			"[item12:
 				"[item12a: one two a/]" +
 				"[item12b:one two b/]" +
@@ -63,7 +63,7 @@ ABON format:
 				"]" +
 			"]" +
 			"[item13:one three/]" +
-		"];
+		"]";
 		
 > read data bytes from string
 
