@@ -74,10 +74,10 @@ ABON and Java
 	
 	Node item11Node = document.getNode(“items1.item11”);
 	Node item12caNode = document.getNode(“items1.item12.item12c.item12ca”);
-*Or if no duplicated keyname*
+Or if no duplicated keyname
 	Node item11Node = document.getNode(“item11”);
 	Node item11Node = document.getNode(“items12ca”);
-###
+finally
 	String items11Name = Item11Node.getName();
 	String items11Value = Item11Node.getValue();
 	
