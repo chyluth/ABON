@@ -10,6 +10,7 @@ What is ABON?
  Uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python
 
 Why Use ABON over XML or JSON
+=============================
 • Lighter and faster than XML or JSON as on-the-wire data format
 • ABON objects are typed while XML data is typeless
  ABON types: string, number, array, boolean   and symbol
@@ -19,10 +20,12 @@ Why Use ABON over XML or JSON
  Retrieving values is as easy as reading from an objectproperty in your Java code
 
 Where is ABON Used?
+===================
 • Represent configuration information
 • Implement communication protocols
 
 ABON Structures
+===============
 • A collection of name/value pairs using keyname or just name
  In various languages, this is realized as an object, record, struct, dictionary, hash table, keyed list, or associative array
 • An ordered list of values
@@ -30,15 +33,17 @@ ABON Structures
 • These are universal data structures supported by most modern programming languages
 
 ABON Object Notation
+====================
 • An ABON object is an unordered set of name/value pairs
 • An ABON object begins with [  (open bracket) and ends with ] (close bracket)
 • Each name is followed by : (colon) and after that is the value that closed by / (forward slash) and followed by ] (close bracket)
 
 ABON and Java
+=============
 • ABON is a subset of the object literal notation of Java 1.3
  ABON can be used in the Java language with no muss or fuss
 
-	Example: ABON Object
+### Example: ABON Object
 	String myABONString = 
 	"[items1:" +
 	  "[item11:one one/]" +
