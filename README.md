@@ -92,7 +92,7 @@ Step-by-step method:
 	Node item11Node = document.getNode(“items1.item11”);
 	Node item12caNode = document.getNode(“items1.item12.item12c.item12ca”);
 	
-> or if no duplicated keyname
+> or if no duplicated node name
 
 	Node item11Node = document.getNode(“item11”);
 	Node item11Node = document.getNode(“items12ca”);
